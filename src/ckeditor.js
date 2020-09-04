@@ -7,7 +7,7 @@
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
 
-import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
+//import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
@@ -82,7 +82,7 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
-			'codeBlock',
+			//'codeBlock',
 			'undo',
 			'redo'
 		]
