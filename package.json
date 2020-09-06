@@ -74,7 +74,7 @@
     "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
   },
   "scripts": {
-    "release": "sudo npm run build && git add . && git commit -m 'updates' --no-verify && git push origin master",
+    "release": "sudo rm -rf node_modules && sudo rm package-lock.json && sudo npm i && sudo npm run build && git add . && git commit -m 'updates' --no-verify && git push origin master",
     "build": "webpack --mode production",
     "lint": "eslint --quiet '**/*.js'",
     "stylelint": "stylelint --quiet --allow-empty-input 'theme/**/*.css' 'docs/**/*.css'",
@@ -97,5 +97,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "@ckeditor/ckeditor5-upload": "^22.0.0"
+  }
 }

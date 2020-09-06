@@ -8,6 +8,8 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 
 
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
+
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
@@ -37,6 +39,7 @@ export default class ClassicEditor extends ClassicEditorBase { }
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	CodeBlock,
+	SimpleUploadAdapter,
 	Essentials,
 	UploadAdapter,
 	Autoformat,
@@ -98,5 +101,5 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'ru'
+	language: 'en'
 };
