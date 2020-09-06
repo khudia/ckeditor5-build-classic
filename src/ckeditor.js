@@ -40,6 +40,7 @@ export default class ClassicEditor extends ClassicEditorBase { }
 ClassicEditor.builtinPlugins = [
 	CodeBlock,
 	SimpleUploadAdapter,
+
 	Essentials,
 	UploadAdapter,
 	Autoformat,
