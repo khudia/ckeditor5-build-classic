@@ -98,6 +98,6 @@
     }
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-upload": "^22.0.0"
+    "@ckeditor/ckeditor5-upload": "^19.0.0"
   }
 }
