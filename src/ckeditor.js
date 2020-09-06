@@ -7,8 +7,7 @@
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
 
-//import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
-
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
@@ -37,7 +36,7 @@ export default class ClassicEditor extends ClassicEditorBase { }
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
-	//CodeBlock,
+	CodeBlock,
 	Essentials,
 	UploadAdapter,
 	Autoformat,
