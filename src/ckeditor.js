@@ -67,21 +67,18 @@ ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
-			'|',
 			'bold',
 			'italic',
 			'link',
 			'bulletedList',
 			'numberedList',
-			'|',
 			'indent',
 			'outdent',
-			'|',
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
-			//'codeBlock',
+			'codeBlock',
 			'undo',
 			'redo'
 		]
@@ -90,7 +87,6 @@ ClassicEditor.defaultConfig = {
 		toolbar: [
 			'imageStyle:full',
 			'imageStyle:side',
-			'|',
 			'imageTextAlternative'
 		]
 	},
