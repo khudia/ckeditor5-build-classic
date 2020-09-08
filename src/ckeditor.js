@@ -30,8 +30,8 @@ import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 // import ImageResizeButtons from '@ckeditor/ckeditor5-image/src/imageresize/imageresizebuttons';
 // import ImageResizeHandles from '@ckeditor/ckeditor5-image/src/imageresize/imageresizehandles';
 //import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
-import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
-import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+//import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+//import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 //import ExportPdf from '@ckeditor/ckeditor5-export-pdf/src/exportpdf';
 
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
@@ -53,8 +53,8 @@ ClassicEditor.builtinPlugins = [
 
 
 	//ImageResize,
-	Alignment,
-	Highlight,
+	//Alignment,
+	//Highlight,
 	//ExportPdf,
 
 
