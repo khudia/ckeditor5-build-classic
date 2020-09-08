@@ -52,7 +52,7 @@ ClassicEditor.builtinPlugins = [
 	SimpleUploadAdapter,
 
 
-	ImageResize,
+
 	Alignment,
 	Highlight,
 	//ExportPdf,
@@ -71,6 +71,7 @@ ClassicEditor.builtinPlugins = [
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
+	ImageResize,
 	Indent,
 	Link,
 	List,
