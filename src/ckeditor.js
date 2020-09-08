@@ -25,7 +25,7 @@ import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 
-import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
+//import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 // import ImageResizeEditing from '@ckeditor/ckeditor5-image/src/imageresize/imageresizeedititing';
 // import ImageResizeButtons from '@ckeditor/ckeditor5-image/src/imageresize/imageresizebuttons';
 // import ImageResizeHandles from '@ckeditor/ckeditor5-image/src/imageresize/imageresizehandles';
@@ -51,7 +51,7 @@ ClassicEditor.builtinPlugins = [
 	SimpleUploadAdapter,
 
 
-	ImageResize,
+	//ImageResize,
 	//Alignment,
 	//Highlight,
 	//ExportPdf,
