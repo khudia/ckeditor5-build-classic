@@ -251,6 +251,15 @@
     "@ckeditor/ckeditor5-engine" "^19.0.1"
     "@ckeditor/ckeditor5-utils" "^19.0.1"
 
+"@ckeditor/ckeditor5-clipboard@^22.0.0":
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-clipboard/-/ckeditor5-clipboard-22.0.0.tgz#4439629aedf3fae340e7b812d5e2f2db21e69e06"
+  integrity sha512-Qhgv7VlfIiK+/Apr3/A+gjHNSxttZu4JL8nV8lXeQpEfSBhi5YOBV0acOGusfj5aJ9pjMWyRFRXoL+NG1mFvvg==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^22.0.0"
+    "@ckeditor/ckeditor5-engine" "^22.0.0"
+    "@ckeditor/ckeditor5-utils" "^22.0.0"
+
 "@ckeditor/ckeditor5-cloud-services@>=20.0.0":
   version "22.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-cloud-services/-/ckeditor5-cloud-services-22.0.0.tgz#63066fadb2968879000657d054d71772d5e62ef9"
@@ -413,7 +422,7 @@
     "@ckeditor/ckeditor5-core" "^19.0.1"
     "@ckeditor/ckeditor5-ui" "^19.0.1"
 
-"@ckeditor/ckeditor5-image@^19.0.0", "@ckeditor/ckeditor5-image@^19.0.1":
+"@ckeditor/ckeditor5-image@^19.0.1":
   version "19.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-image/-/ckeditor5-image-19.0.1.tgz#759729c116066f791d501362f48bc427aebe67e8"
   integrity sha512-pYx07Hdp9hTJhxgCFILNEGa4mPO7Vdu/Jubi/ZE1XdO9J1i/mj6ddFhtLef8psYk9Ujy4zkBLhjn8SQh3KNXYA==
@@ -425,6 +434,19 @@
     "@ckeditor/ckeditor5-upload" "^19.0.1"
     "@ckeditor/ckeditor5-utils" "^19.0.1"
     "@ckeditor/ckeditor5-widget" "^19.1.0"
+
+"@ckeditor/ckeditor5-image@^22.0.0":
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-image/-/ckeditor5-image-22.0.0.tgz#c698ea8396c71fdb3df32e363cb8ba888df314b4"
+  integrity sha512-Dk4R9NXJIV2no4uIhhtiwytcYSFC10NoE9r5HXkNkiGN33PBo0gbfuaSy9wtsFAhDF0Rt8O65oeaXBKeNKcCFQ==
+  dependencies:
+    "@ckeditor/ckeditor5-clipboard" "^22.0.0"
+    "@ckeditor/ckeditor5-core" "^22.0.0"
+    "@ckeditor/ckeditor5-engine" "^22.0.0"
+    "@ckeditor/ckeditor5-ui" "^22.0.0"
+    "@ckeditor/ckeditor5-upload" "^22.0.0"
+    "@ckeditor/ckeditor5-utils" "^22.0.0"
+    "@ckeditor/ckeditor5-widget" "^22.0.0"
 
 "@ckeditor/ckeditor5-indent@^19.0.0":
   version "19.0.1"
@@ -523,7 +545,17 @@
     "@ckeditor/ckeditor5-utils" "^19.0.1"
     lodash-es "^4.17.10"
 
-"@ckeditor/ckeditor5-ui@>=19.0.0":
+"@ckeditor/ckeditor5-typing@^22.0.0":
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-typing/-/ckeditor5-typing-22.0.0.tgz#b9b50c550c12a34f30c004ed4828c7a11a8d150c"
+  integrity sha512-aKjWsD0lKk360NJAtVLatB3lAXtJyke4ZcxscampLIEBuLHcdOzOC7wqlN+mhmJ0vYj8KlFCdhy6J7wsVsSJEg==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^22.0.0"
+    "@ckeditor/ckeditor5-engine" "^22.0.0"
+    "@ckeditor/ckeditor5-utils" "^22.0.0"
+    lodash-es "^4.17.15"
+
+"@ckeditor/ckeditor5-ui@>=19.0.0", "@ckeditor/ckeditor5-ui@^22.0.0":
   version "22.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-22.0.0.tgz#5509e49bcb189c29fbe0412812b75581d4493c10"
   integrity sha512-b+uQGc4lugywNAsvE9vsye+bWr52Ic4h7nA1Jrc/ppy7D9dUL+S93U7oK16wZHlyWZMuzAVxz+KUm8Ve33PwCQ==
@@ -559,6 +591,15 @@
     "@ckeditor/ckeditor5-ui" "^19.0.1"
     "@ckeditor/ckeditor5-utils" "^19.0.1"
 
+"@ckeditor/ckeditor5-upload@^22.0.0":
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-upload/-/ckeditor5-upload-22.0.0.tgz#d7669c7548a657f8ba9b8df3d2e44aea10b5f6c2"
+  integrity sha512-y74TOXaqRRUiVrV+/S/1lhcpA2TCxU1EmVZf0Ww4T/iNd+tNGsc/I7JD+HqOviWkUMBqOLmy+h119cWmQq1FZg==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^22.0.0"
+    "@ckeditor/ckeditor5-ui" "^22.0.0"
+    "@ckeditor/ckeditor5-utils" "^22.0.0"
+
 "@ckeditor/ckeditor5-utils@^19.0.1":
   version "19.0.2"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-19.0.2.tgz#72e0abf31352b74f659d29972030f89d09334e9e"
@@ -583,6 +624,18 @@
     "@ckeditor/ckeditor5-ui" "^19.0.1"
     "@ckeditor/ckeditor5-utils" "^19.0.1"
     lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-widget@^22.0.0":
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-widget/-/ckeditor5-widget-22.0.0.tgz#6abd020e55fa55c3577e670ea8d59cb12e7269f0"
+  integrity sha512-uQJSfOXnFPMsxpL7teSK415l40bLtgxH64gYTwJd6fIYDHVKCclDddyVCEeSTDRV1Hti4Msjza6gk/3RFu3fng==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^22.0.0"
+    "@ckeditor/ckeditor5-engine" "^22.0.0"
+    "@ckeditor/ckeditor5-typing" "^22.0.0"
+    "@ckeditor/ckeditor5-ui" "^22.0.0"
+    "@ckeditor/ckeditor5-utils" "^22.0.0"
+    lodash-es "^4.17.15"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"

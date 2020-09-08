@@ -38,7 +38,7 @@
     "@ckeditor/ckeditor5-editor-classic": "^19.0.0",
     "@ckeditor/ckeditor5-essentials": "^19.0.0",
     "@ckeditor/ckeditor5-heading": "^19.0.0",
-    "@ckeditor/ckeditor5-image": "^19.0.0",
+    "@ckeditor/ckeditor5-image": "^22.0.0",
     "@ckeditor/ckeditor5-indent": "^19.0.0",
     "@ckeditor/ckeditor5-link": "^19.0.0",
     "@ckeditor/ckeditor5-list": "^19.0.0",
@@ -74,7 +74,7 @@
     "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
   },
   "scripts": {
-    "upload":"sudo npm run build && git add . && git commit -m 'updates' --no-verify && git push origin master",
+    "upload": "sudo npm run build && git add . && git commit -m 'updates' --no-verify && git push origin master",
     "release": "sudo rm -rf node_modules && sudo rm package-lock.json && sudo npm i && sudo npm run build && git add . && git commit -m 'updates' --no-verify && git push origin master",
     "build": "webpack --mode production",
     "push": "git add . && git commit -m 'updates' --no-verify && git push origin master",
