@@ -9,9 +9,7 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
-
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
-
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
@@ -24,16 +22,14 @@ import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
-
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 //import ImageResizeEditing from '@ckeditor/ckeditor5-image/src/imageresize/imageresizeedititing';
-i//mport ImageResizeButtons from '@ckeditor/ckeditor5-image/src/imageresize/imageresizebuttons';
+//mport ImageResizeButtons from '@ckeditor/ckeditor5-image/src/imageresize/imageresizebuttons';
 //import ImageResizeHandles from '@ckeditor/ckeditor5-image/src/imageresize/imageresizehandles';
 //import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
-//import ExportPdf from '@ckeditor/ckeditor5-export-pdf/src/exportpdf';
-
+import ExportPdf from '@ckeditor/ckeditor5-export-pdf/src/exportpdf';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
@@ -52,7 +48,6 @@ ClassicEditor.builtinPlugins = [
 	SimpleUploadAdapter,
 	Alignment,
 	Highlight,
-	//ExportPdf,
 	Essentials,
 	Autoformat,
 	Bold,
@@ -67,8 +62,8 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	ImageResize,
-	ImageResizeEditing,
-	ImageResizeButtons,
+	//	ImageResizeEditing,
+	//	ImageResizeButtons,
 	Indent,
 	Link,
 	List,
@@ -77,7 +72,8 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	ExportPdf
 ];
 
 // Editor configuration.
