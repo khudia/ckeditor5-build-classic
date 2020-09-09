@@ -29,7 +29,7 @@ import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 //import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
-import ExportPdf from '@ckeditor/ckeditor5-export-pdf/src/exportpdf';
+//import ExportPdf from '@ckeditor/ckeditor5-export-pdf/src/exportpdf';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
@@ -72,8 +72,8 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextTransformation,
-	ExportPdf
+	TextTransformation
+	// ExportPdf
 ];
 
 // Editor configuration.
