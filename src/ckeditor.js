@@ -26,9 +26,9 @@ import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
-// import ImageResizeEditing from '@ckeditor/ckeditor5-image/src/imageresize/imageresizeedititing';
-// import ImageResizeButtons from '@ckeditor/ckeditor5-image/src/imageresize/imageresizebuttons';
-// import ImageResizeHandles from '@ckeditor/ckeditor5-image/src/imageresize/imageresizehandles';
+//import ImageResizeEditing from '@ckeditor/ckeditor5-image/src/imageresize/imageresizeedititing';
+i//mport ImageResizeButtons from '@ckeditor/ckeditor5-image/src/imageresize/imageresizebuttons';
+//import ImageResizeHandles from '@ckeditor/ckeditor5-image/src/imageresize/imageresizehandles';
 //import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
@@ -50,14 +50,9 @@ export default class ClassicEditor extends ClassicEditorBase { }
 ClassicEditor.builtinPlugins = [
 	CodeBlock,
 	SimpleUploadAdapter,
-
-
-
 	Alignment,
 	Highlight,
 	//ExportPdf,
-
-
 	Essentials,
 	Autoformat,
 	Bold,
@@ -72,6 +67,8 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	ImageResize,
+	ImageResizeEditing,
+	ImageResizeButtons,
 	Indent,
 	Link,
 	List,
